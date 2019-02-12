@@ -1,0 +1,22 @@
+{
+  "name": "rohanvanwijk.github.io",
+  "version": "1.0.0",
+  "description": "A personal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rohanvanwijk/rohanvanwijk.github.io.git"
+  },
+  "author": "rohan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rohanvanwijk/rohanvanwijk.github.io/issues"
+  },
+  "homepage": "https://github.com/Rohanvanwijk/rohanvanwijk.github.io#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.0"
+  }
+}
