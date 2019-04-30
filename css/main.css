@@ -1,0 +1,13 @@
+body {
+  background-color: #E0FBFC;
+  margin: 0;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+}
+
+/*# sourceMappingURL=main.css.map */
