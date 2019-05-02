@@ -16,7 +16,5 @@
     "url": "https://github.com/Rohanvanwijk/rohanvanwijk.github.io/issues"
   },
   "homepage": "https://github.com/Rohanvanwijk/rohanvanwijk.github.io#readme",
-  "dependencies": {
-    "bootstrap": "^4.3.0"
-  }
+  "dependencies": {}
 }
