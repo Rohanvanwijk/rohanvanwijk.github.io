@@ -1,13 +1,46 @@
+html {
+  font-size: 62.5%;
+}
+
 body {
-  background-color: #E0FBFC;
-  margin: 0;
+  background-color: #AAEFDF;
+  font-size: 1.8rem;
+  font-family: "PT Mono", monospace;
+}
+body p {
+  line-height: 1.6;
+}
+body a {
+  text-decoration: none;
+  color: #63C132;
+}
+body a:hover {
+  text-decoration: underline;
 }
 
 .container {
-  max-width: 900px;
-  margin: 0 auto;
+  border-radius: 5rem;
+  border: 3px dashed #9EE37D;
+  max-width: 50rem;
   padding: 20px;
-  background-color: white;
+  background-color: #CFFCFF;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.container img {
+  border-radius: 5rem;
+  transition: all ease-in-out 0.3s;
+}
+.container img:hover {
+  border-radius: 6rem;
+}
+.container h1 {
+  border-bottom: 1px solid #9EE37D;
+  padding-bottom: 1rem;
+  font-size: 6rem;
 }
 
 /*# sourceMappingURL=main.css.map */
