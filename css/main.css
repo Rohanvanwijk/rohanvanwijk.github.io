@@ -3,6 +3,8 @@ html {
 }
 
 body {
+  background-image: url("../../assets/lance.jpg");
+  background-size: cover;
   background-color: #AAEFDF;
   font-size: 1.8rem;
   font-family: "PT Mono", monospace;
@@ -34,13 +36,27 @@ body a:hover {
   border-radius: 5rem;
   transition: all ease-in-out 0.3s;
 }
-.container img:hover {
-  border-radius: 6rem;
-}
 .container h1 {
   border-bottom: 1px solid #9EE37D;
   padding-bottom: 1rem;
   font-size: 6rem;
+}
+
+.socialmedia {
+  list-style-type: none;
+}
+.socialmedia--item {
+  display: inline-block;
+  padding: 2rem 0;
+}
+.socialmedia--item img {
+  border-radius: 0;
+  max-width: 3rem;
+}
+
+.list-reset {
+  margin: 0;
+  padding: 0;
 }
 
 /*# sourceMappingURL=main.css.map */

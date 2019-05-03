@@ -3,6 +3,8 @@ html {
 }
 
 body {
+    background-image: url("../../assets/lance.jpg");
+    background-size: cover;
     background-color: #AAEFDF;
     font-size: 1.8rem;
     font-family: 'PT Mono', monospace;
@@ -36,9 +38,7 @@ body {
     img {
         border-radius: 5rem;
         transition: all ease-in-out .3s;
-        &:hover {
-            border-radius: 6rem;
-        }
+       
     }
 
     h1 {
@@ -48,4 +48,24 @@ body {
     }
 
     
+}
+
+.socialmedia {
+    list-style-type: none;
+    &--item {
+        display: inline-block;
+        padding: 2rem 0;
+        img {
+            border-radius: 0;
+            max-width: 3rem;
+        }
+
+    }
+
+    
+}
+
+.list-reset {
+    margin: 0;
+    padding: 0;
 }
