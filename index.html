@@ -4,12 +4,21 @@
     <title>Rohan</title>
     <link href="https://fonts.googleapis.com/css?family=PT+Mono" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
 <body>
   <main class="container">
           <h1>Rohan</h1>
           <p>I am Rohan and I am studying computer science at <a href=''>InHolland</a></p>
-          <img src="https://synetic.nl/sites/default/files/styles/employee/public/rohan.jpg?itok=CcuFFTE2" alt="rohan" />
+          <div class="img-container">
+              <picture>
+                  <source media="(min-width: 576px)" srcset="assets/rohan/sm.png">
+                  <source media="(min-width: 768px)" srcset="assets/rohan/md.png">
+                  <source media="(min-width: 992px)" srcset="assets/rohan/xl.png">
+                  <img src="https://synetic.nl/sites/default/files/styles/employee/public/rohan.jpg?itok=CcuFFTE2" alt="rohan" />
+              </picture>
+          </div>
+          
           <ul class="socialmedia list-reset">
             <li class="socialmedia--item">
               <a href="https://www.linkedin.com/in/rohanvanwijk/"><img src="assets/linkedin.svg" alt="linkedin" target="_blank" /></a>

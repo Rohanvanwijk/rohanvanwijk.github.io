@@ -3,8 +3,12 @@ html {
 }
 
 body {
-  background-color: #AAEFDF;
-  font-size: 1.8rem;
+  background-image: url("http://www.baltana.com/files/wallpapers-5/Gradient-Background-Wallpapers-16359.jpg");
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
+  background-color: #C03793;
+  font-size: calc(18px + (26 - 18) * ((100vw - 300px) / (1600 - 300)));
   font-family: "PT Mono", monospace;
 }
 body p {
@@ -12,7 +16,7 @@ body p {
 }
 body a {
   text-decoration: none;
-  color: #63C132;
+  color: #245494;
 }
 body a:hover {
   text-decoration: underline;
@@ -20,24 +24,33 @@ body a:hover {
 
 .container {
   border-radius: 5rem;
-  border: 3px dashed #9EE37D;
-  max-width: 50rem;
+  border: 3px dashed #2D357B;
+  max-width: 100%;
   padding: 20px;
-  background-color: #CFFCFF;
+  background-color: rgba(255, 255, 255, 0.3);
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
 }
+.container .img-container {
+  height: 40rem;
+  width: 100%;
+}
 .container img {
-  border-radius: 5rem;
+  border-radius: 2.5rem;
   transition: all ease-in-out 0.3s;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 .container h1 {
-  border-bottom: 1px solid #9EE37D;
+  border-bottom: 1px solid #C77198;
   padding-bottom: 1rem;
-  font-size: 6rem;
+  margin: 0;
+  font-size: 6vw;
+  color: #2D357B;
 }
 
 .socialmedia {
