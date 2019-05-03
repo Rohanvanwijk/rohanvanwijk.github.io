@@ -3,15 +3,12 @@ html {
 }
 
 body {
-    background-image: url("http://www.baltana.com/files/wallpapers-5/Gradient-Background-Wallpapers-16359.jpg");
-    background-size: cover;
+    background: rgb(36,84,148);
+    background: linear-gradient(90deg, rgba(36,84,148,1) 0%, rgba(192,55,147,1) 50%, rgba(252,176,69,1) 100%);
     height: 100vh;
     margin: 0;
-    background-color: $color-p2;
     font-size: calc(18px + (26 - 18) * ((100vw - 300px) / (1600 - 300)));
     font-family: 'PT Mono', monospace;
-
-    
 
     p {
         line-height: 1.6;
