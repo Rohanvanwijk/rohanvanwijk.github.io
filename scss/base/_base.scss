@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background: rgb(36,84,148);
+    background-color: rgb(36,84,148);
     background: linear-gradient(90deg, rgba(36,84,148,1) 0%, rgba(192,55,147,1) 50%, rgba(252,176,69,1) 100%);
     height: 100vh;
     margin: 0;
@@ -12,6 +12,10 @@ body {
 
     @media only screen and (max-width: 730px) {
         padding: 2rem;
+    }
+
+    @media (prefers-color-scheme: dark) {
+        background-color: black;
     }
 
     p {
@@ -23,6 +27,10 @@ body {
         color: $color-s1;
         &:hover {
             text-decoration: underline;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            color: hotpink;
         }
     }
 
@@ -49,6 +57,13 @@ body {
         transform: none;
     }
 
+    @media (prefers-color-scheme: dark) {
+        color: white;
+        border: 3px dashed white;
+        background-color: black;
+
+    }
+
    
 
     .img-container {
@@ -70,6 +85,10 @@ body {
         margin: 0;
         font-size: 6vw;
         color: $color-p1;
+        @media (prefers-color-scheme: dark) {
+            color: white;
+            border-bottom: 1px solid white;
+        }
     }
 
     
