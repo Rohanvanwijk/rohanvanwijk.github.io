@@ -18,6 +18,7 @@ body {
 @media (prefers-color-scheme: dark) {
   body {
     background-color: black;
+    background: black;
   }
 }
 body p {
@@ -62,7 +63,7 @@ body a:hover {
   .container {
     color: white;
     border: 3px dashed white;
-    background-color: black;
+    background-color: gray;
   }
 }
 .container .img-container {
@@ -85,7 +86,7 @@ body a:hover {
 @media (prefers-color-scheme: dark) {
   .container h1 {
     color: white;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid hotpink;
   }
 }
 
