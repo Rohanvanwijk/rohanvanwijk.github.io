@@ -10,6 +10,10 @@ body {
     font-size: calc(18px + (26 - 18) * ((100vw - 300px) / (1600 - 300)));
     font-family: 'PT Mono', monospace;
 
+    @media only screen and (max-width: 730px) {
+        padding: 2rem;
+    }
+
     p {
         line-height: 1.6;
     }
@@ -36,8 +40,19 @@ body {
     transform: translate(-50%, -50%);
     text-align: center;
 
+    @media only screen and (max-width: 730px) {
+        left: 0;
+        top: 0;
+        padding: 2rem;
+        border: 0;
+        position: relative;
+        transform: none;
+    }
+
+   
+
     .img-container {
-        height: 40rem;
+       
         width: 100%;
     }
     img {
