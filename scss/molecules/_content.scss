@@ -1,0 +1,16 @@
+.main-content {
+    margin: 2rem 0;
+}
+
+.bio {
+    flex: 1;
+}
+
+.profile {
+    flex: 1;
+
+    &__img {
+        border-radius: 50%;
+        max-width: 20rem;
+    }
+}

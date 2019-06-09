@@ -4,7 +4,7 @@ html {
 
 body {
     font-size: 1.6rem;
-    font-family: 'PT Mono', monospace;
+    font-family: 'Nunito', sans-serif;
 
     p {
         line-height: 1.6;
@@ -12,19 +12,18 @@ body {
 
     a {
         text-decoration: none;
-        color: $color-s1;
-        &:hover {
-            text-decoration: underline;
-        }
-
     }
 
+}
+
+img {
+    height: 100%;
+    width: 100%;
 }
 
 .container {
     max-width: 800px;
     margin: 0 auto;
-
 }
 
 
@@ -38,5 +37,15 @@ body {
 .d-flex {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.margin {
+    &__top {
+        margin-top: 1rem;
+    }
+    &__bottom {
+        margin-bottom: 1rem;
+    }
 }
 

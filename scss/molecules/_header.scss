@@ -1,7 +1,33 @@
 .site-header {
-  &__logo {
-    width: 4rem;
-    background-color: red;
+
+  &__list-item {
+    display: inline-block;
+    &:first-child {
+      .menu-link {
+        padding-left: 0;
+      }
+    }
+    &:last-child {
+      .menu-link {
+        padding-right: 0;
+      }
+    }
   }
 
+  &__logo {
+    background-color: white;
+    padding: 0rem 1rem;
+    z-index: 2;
+    margin-bottom: -1rem;
+    border: 2px solid black;
+  }
+
+}
+
+.menu-link {
+  padding: 0 1rem;
+  color: black;
+  &:hover {
+    text-decoration: none;
+  }
 }

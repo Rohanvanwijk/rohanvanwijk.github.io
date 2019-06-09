@@ -1,3 +1,8 @@
+@import "../node_modules/normalize.css/normalize.css";
+@import "../assets/icons/style.scss";
+@import url('https://fonts.googleapis.com/css?family=Nunito:300,400,700&display=swap');
 @import "base/variables";
 @import "base/base";
 @import "molecules/header";
+@import "molecules/banner";
+@import "molecules/content";
