@@ -1,13 +1,28 @@
 .main-content {
     margin: 2rem 0;
+
+    &__list {
+        line-height: 1.7;
+        &__item {
+            padding-left: 1.6rem;
+        }
+    }
+
+    a {
+        color: green;
+        
+    }
 }
 
 .bio {
     flex: 1;
+    border-left: 1px solid gray;
+    padding-left: 2rem;
 }
 
 .profile {
     flex: 1;
+    text-align: center;
 
     &__img {
         border-radius: 50%;

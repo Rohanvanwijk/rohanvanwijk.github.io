@@ -131,12 +131,25 @@ img {
 
 .main-content {
   margin: 2rem 0; }
+  .main-content__list {
+    line-height: 1.7; }
+    .main-content__list__item {
+      padding-left: 1.6rem; }
+  .main-content a {
+    color: green; }
 
 .bio {
-  flex: 1; }
+  flex: 1;
+  border-left: 1px solid gray;
+  padding-left: 2rem; }
 
 .profile {
-  flex: 1; }
+  flex: 1;
+  text-align: center; }
   .profile__img {
     border-radius: 50%;
     max-width: 20rem; }
+
+.site-footer {
+  background-color: aquamarine;
+  padding: 2rem 0; }
