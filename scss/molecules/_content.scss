@@ -30,3 +30,53 @@
         box-shadow: 2px 5px 9px lightgrey;
     }
 }
+
+// Slider
+.mySlider {
+    position: relative;
+}
+
+.slick-arrow {
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+    transform: translateY(-50%);
+    padding: 2rem;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.5)
+}
+
+.slick-prev {
+    left: 0;
+}
+
+.slick-dots {
+    margin: 1rem 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+
+    li {
+        display: inline-block;
+        margin: 0 .5rem;
+    }
+
+    button {
+        border: none;
+        background-color: gray;
+        color: white;
+        border-radius: 50%;
+        padding: .5rem;
+    }
+
+    .slick-active {
+        button {
+            background-color: black;
+        }
+        
+    }
+}
+
+.slick-next {
+    right: 0;
+}
