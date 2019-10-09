@@ -78,10 +78,11 @@
 
 @font-face {
   font-family: "icomoon";
-  src: url("../assets/icons/fonts/icomoon.eot?2jmdkw");
-  src: url("../assets/icons/fonts/icomoon.eot?2jmdkw#iefix") format("embedded-opentype"), url("../assets/icons/fonts/icomoon.ttf?2jmdkw") format("truetype"), url("../assets/icons/fonts/icomoon.woff?2jmdkw") format("woff"), url("../assets/icons/fonts/icomoon.svg?2jmdkw#icomoon") format("svg");
+  src: url("../assets/icons/fonts/icomoon.eot?7javga");
+  src: url("../assets/icons/fonts/icomoon.eot?7javga#iefix") format("embedded-opentype"), url("../assets/icons/fonts/icomoon.ttf?7javga") format("truetype"), url("../assets/icons/fonts/icomoon.woff?7javga") format("woff"), url("../assets/icons/fonts/icomoon.svg?7javga#icomoon") format("svg");
   font-weight: normal;
-  font-style: normal; }
+  font-style: normal;
+  font-display: block; }
 
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
@@ -96,9 +97,14 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
+.icon-back:before {
+  content: ""; }
+
+.icon-next:before {
+  content: ""; }
+
 .icon-profile:before {
-  content: "";
-  padding-right: .5rem; }
+  content: ""; }
 
 .icon-file:before {
   content: ""; }
@@ -125,8 +131,7 @@
   content: ""; }
 
 .icon-linkedin:before {
-  content: "";
-  padding-right: .5rem; }
+  content: ""; }
 
 .icon-brand1:before {
   content: ""; }
@@ -135,8 +140,7 @@
   content: ""; }
 
 .icon-instagram:before {
-  content: "";
-  padding-right: .5rem; }
+  content: ""; }
 
 .icon-brand:before {
   content: ""; }
@@ -153,7 +157,14 @@ body {
   body p {
     line-height: 1.6; }
   body a {
-    text-decoration: none; }
+    text-decoration: none;
+    color: green; }
+
+li {
+  line-height: 1.7; }
+
+time {
+  font-weight: bold; }
 
 img {
   height: 100%;
@@ -204,6 +215,8 @@ img {
   color: black; }
   .menu-link:hover {
     text-decoration: none; }
+  .menu-link:before {
+    margin-right: .2rem; }
 
 .banner {
   height: 25rem; }
@@ -212,12 +225,8 @@ img {
 
 .main-content {
   margin: 2rem 0; }
-  .main-content__list {
-    line-height: 1.7; }
-    .main-content__list__item {
-      padding-left: 1.6rem; }
-  .main-content a {
-    color: green; }
+  .main-content__list__item {
+    padding-left: 1.6rem; }
 
 .bio {
   flex: 1;
@@ -240,12 +249,27 @@ img {
   top: 50%;
   z-index: 1;
   transform: translateY(-50%);
-  padding: 2rem;
+  padding: 1rem;
   border: none;
-  background-color: rgba(255, 255, 255, 0.5); }
+  background-color: rgba(255, 255, 255, 0.5);
+  font-size: 0;
+  outline: none; }
+  .slick-arrow:hover {
+    background-color: rgba(255, 255, 255, 0.9); }
 
 .slick-prev {
   left: 0; }
+  .slick-prev:before {
+    font-size: 3rem;
+    font-family: "icomoon";
+    content: ""; }
+
+.slick-next {
+  right: 0; }
+  .slick-next:before {
+    font-size: 3rem;
+    font-family: "icomoon";
+    content: ""; }
 
 .slick-dots {
   margin: 1rem 0;
@@ -257,16 +281,13 @@ img {
     margin: 0 .5rem; }
   .slick-dots button {
     border: none;
-    background-color: gray;
+    background-color: #2D357B;
     color: white;
     border-radius: 50%;
     padding: .5rem; }
   .slick-dots .slick-active button {
-    background-color: black; }
-
-.slick-next {
-  right: 0; }
+    background-color: #245494; }
 
 .site-footer {
-  background-color: aquamarine;
-  padding: 2rem 0; }
+  padding: 2rem 0;
+  font-size: 1.4rem; }

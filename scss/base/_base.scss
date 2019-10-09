@@ -12,8 +12,17 @@ body {
 
     a {
         text-decoration: none;
+        color: $color-p3;
     }
 
+}
+
+li {
+    line-height: 1.7;
+}
+
+time {
+    font-weight: bold;
 }
 
 img {
