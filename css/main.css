@@ -214,6 +214,8 @@ img {
   z-index: 2;
   margin-bottom: -1rem;
   border: 2px solid black; }
+  .site-header__logo a {
+    color: black; }
   @media (min-width: 576px) {
     .site-header__logo {
       display: block; } }
@@ -338,3 +340,23 @@ img {
 
 .showcase {
   margin-bottom: 4rem; }
+
+.login {
+  margin-top: 4rem;
+  box-shadow: 4px 4px 9px #245494;
+  max-width: 30rem;
+  padding: 2rem;
+  margin-right: auto;
+  margin-left: auto; }
+  .login-container {
+    text-align: center; }
+  .login input {
+    padding: .4rem 1rem;
+    border-radius: 20rem;
+    margin-bottom: 2rem; }
+  .login .login-btn {
+    display: block;
+    padding: .3rem 1rem;
+    margin: 0 auto;
+    border: none;
+    color: green; }

@@ -1,0 +1,26 @@
+.login {
+    margin-top: $spacing-features-top;
+    box-shadow: 4px 4px 9px $color-s1;
+    max-width: 30rem;
+    padding: 2rem;
+    margin-right:  auto;
+    margin-left: auto;
+    &-container {
+        text-align: center;
+        
+    }
+
+    input {
+        padding: .4rem 1rem;
+        border-radius: 20rem;
+        margin-bottom: 2rem;
+    }
+    .login-btn {
+        display: block;
+        padding: .3rem 1rem;
+        margin: 0 auto;
+        border: none;
+        color: $color-p3;
+    }
+}
+

@@ -21,6 +21,9 @@
     z-index: 2;
     margin-bottom: -1rem;
     border: 2px solid black;
+    a {
+      color: black;
+    }
     @media (min-width: $screen-sm) {
       display: block;
     }
