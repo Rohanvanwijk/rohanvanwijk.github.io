@@ -1,5 +1,8 @@
 .banner {
-    height: 25rem;
+    height: 10rem;
+    @include media-breakpoint-up(sm) {
+        height: 25rem;
+    }
     &__img {
         object-fit: cover;
     }
