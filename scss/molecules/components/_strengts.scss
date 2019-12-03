@@ -21,7 +21,8 @@
             width: 7rem;
             margin-right: 2rem;
         }
-        box-shadow: 4px 4px 9px $color-s1;
+        box-shadow: 1px 1px 4px #000;
+        transition: box-shadow 500ms;
         padding: 1rem;
         &:hover {
             box-shadow: 4px 4px 9px $color-p1;
