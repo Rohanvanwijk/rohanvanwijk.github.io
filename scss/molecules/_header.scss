@@ -1,5 +1,9 @@
 .site-header {
-
+  margin: 1rem 0;
+  &__container-list {
+    display: flex;
+    justify-content: flex-end;
+  }
   &__list-item {
     display: inline-block;
     &:first-child {
@@ -28,7 +32,6 @@
       display: block;
     }
   }
-
 }
 
 .menu-link {
@@ -38,6 +41,6 @@
     text-decoration: none;
   }
   &:before {
-    margin-right: .2rem;
+    margin-right: 0.2rem;
   }
 }

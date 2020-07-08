@@ -1,10 +1,12 @@
 @import "../node_modules/normalize.css/normalize.css";
 @import "../node_modules/slick-carousel/slick/slick.scss";
-@import "../assets/icons/style.scss";
-@import url('https://fonts.googleapis.com/css?family=Nunito:300,400,700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Nunito:300,400,700&display=swap");
 
 // Bootstrap
-@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../node_modules/bootstrap/scss/_functions.scss";
+@import "../node_modules/bootstrap/scss/_mixins.scss";
+@import "../node_modules/bootstrap/scss/_variables.scss";
+@import "../node_modules/bootstrap/scss/_reboot.scss";
 
 @import "base/variables";
 @import "base/base";
@@ -15,4 +17,3 @@
 @import "molecules/footer";
 
 @import "molecules/components";
-
